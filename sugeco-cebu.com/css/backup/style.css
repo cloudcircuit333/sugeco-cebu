@@ -1,0 +1,226 @@
+.header {
+	max-width: 1200px;
+	height: 149px;
+	background-color: #013cb2;
+	margin: auto;
+}
+#headerlogo{
+	background-image: url('../images/hlogo.png');
+	background-repeat: no-repeat;
+}
+#sugeconavlogo{
+	display: none;
+	margin-left: 100px;
+}
+.navbar{
+	background-color: white;
+}
+#navMenuToggle{
+	font-size: 20px;
+}
+#navMenuToggle a:hover{
+	text-shadow: 0 0 .65px #08A5BF, 0 0 .65px #000;
+}
+#navigationbar{
+	margin: auto;
+	max-width: 1200px;
+}
+#navigationbar ul li{
+	margin-right: 30px;
+}
+#navtoggler-icon{
+	padding: 0;
+}
+#burgerbtn{
+	width: 40px;
+	height: 40px;
+}
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/ho.png");
+  height: 100%;
+  max-width: 1200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin: auto;
+}
+.carousel-indicators{
+	margin-bottom: -30px;
+}
+.carousel-indicators li {
+  box-sizing: content-box;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  width: 15px;
+  height: 15px;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #08A5BF;
+  background-clip: padding-box;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  opacity: .5;
+  transition: opacity 0.6s ease;
+  border-radius: 50%;
+}
+.slogan{
+	color: white;
+	display: block;
+	
+}
+#slogan-container{
+	max-width: 920px;
+	margin:30px auto;
+}
+#slogan-container h3{
+	font-style: italic;
+	font-weight: 200;
+	text-align: right;
+	font-size: 20px;
+}
+#slogan-container h1{
+	font-style: normal;
+	font-weight: 200;
+	font-size: 40px;
+}
+#btninquiry{
+	background-color: #013cb2;
+	opacity: 0.5;
+	padding: 10px 0;
+}
+#btninquiry:hover{
+	background-color: #ffffff;
+	opacity: 1;
+}
+#inquerieslbl{
+	color: white;
+	padding: 10px 15px;
+}
+#inquerieslbl:hover{
+	text-shadow: 0 0 .65px #08A5BF, 0 0 .65px #000;
+}
+#excellent{
+	margin: auto;
+}
+#segecofooterlogo{
+	width:129px;
+	height:25px;
+}
+footer{
+	max-width: 1200px;
+	background-color: #08A5BF;
+	margin: auto;
+	color: white;
+	font-size: 12px;
+}
+
+.jumbotron{
+	background-color: #013cb2;
+	margin-top: 30px;
+	height: 371px;
+}
+#social-icons{
+	text-align: center;
+}
+#social-icons a{
+	font-size: 40px;
+	color: white;
+	padding: 10px;
+}
+#social-icons a:hover{
+	color: #08A5BF;
+}
+#copyright-wrapper{
+	margin-bottom: 30px;
+}
+hr.ctm {
+  border: 3px solid #013cb2;
+  border-radius: 1.5px;
+  margin: auto;
+  width: 100%;
+  max-width: 1194px;
+  box-sizing: content-box;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+  #slogan-container h3{
+	font-style: italic;
+	font-weight: 200;
+	text-align: center;
+	font-size: 20px;
+}
+#branches-wrapper{
+	line-height: 10px;		
+}
+}
+@media (max-width: 768px) {
+    #slogan-container h3{
+	font-style: italic;
+	font-weight: 200;
+	text-align: center;
+	font-size: 20px;
+}
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+/*Products*/
+#productsContentWrapper{
+	margin: auto;
+	max-width: 920px;
+}
+#cytank-wrapper01 .jumbotron{
+	padding:0;
+	background-color: #fff;
+	height: 229px;
+}
+#btnSearch{
+	background-color: #013cb2;
+	border-color:#013cb2;
+	opacity: .8;
+	padding: 0;
+}
+#btnSearch:hover{
+	text-shadow: 0 0 .65px #08A5BF, 0 0 .65px #000;
+	background-color: #ffffff;
+	opacity: 1;
+}
+#searchImg{
+	padding: 5px 10px;
+}
+#searchImg:hover{
+	-webkit-filter: drop-shadow(5px 5px 5px #222 );
+  	filter: drop-shadow(5px 5px 5px #222);
+}
+#cytank-wrapper01{
+	margin-top: 3px;
+}
+#cytank-wrapper02{
+	margin-top: 3px;
+}
+#paginav{
+	margin: 3px auto;
+}

@@ -1,0 +1,338 @@
+.header {
+  max-width: 1200px;
+  height: 149px;
+  background-color: #013cb2;
+  margin: auto;
+}
+#headerlogo{
+	
+}
+#sugeconavlogo{
+  display: none;
+  margin-left: 100px;
+}
+.nav-link{
+  color:#013cb2;
+  font-weight: 400;
+}
+.active a{
+  color: #08A5BF;
+  text-shadow: 0 0 .65px #08A5BF, 0 0 .65px #000;
+  pointer-events: none;
+}
+.navbar{
+  background-color: white;
+}
+#navMenuToggle{
+  font-size: 20px;
+}
+#navMenuToggle a:hover{
+  text-shadow: 0 0 .65px #08A5BF, 0 0 .65px #000;
+}
+#navigationbar{
+  margin: auto;
+  max-width: 1200px;
+  z-index: 100;
+}
+.layer-order{
+  z-index: 50;
+}
+}
+#navtoggler-icon{
+  padding: 0;
+}
+#burgerbtn{
+  width: 40px;
+  height: 40px;      
+}
+.hero-image {
+  background-image: linear-gradient(rgba(1, 60, 178, 0.5), rgba(0, 0, 0, 0.5)), url("../images/ho.png");
+  height: 100%;
+  max-width: 1200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin: auto;
+}
+#undercons{
+  background-image:url("../images/undercons.jpg");
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: cover;
+  position: relative;
+  -webkit-background-size:cover; 
+  -moz-background-size:cover; 
+  width: 920px;
+  height: 700px;
+  width: 100%;
+}
+#underconsBtn{
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+.carousel-indicators{
+  margin-bottom: -30px;
+}
+.carousel-indicators li {
+  box-sizing: content-box;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  width: 15px;
+  height: 15px;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #08A5BF;
+  background-clip: padding-box;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  opacity: .5;
+  transition: opacity 0.6s ease;
+  border-radius: 50%;
+}
+.slogan{
+  color: white;
+  display: block;	
+}
+#slogan-container{
+  max-width: 920px;
+  margin:30px auto;
+}
+#slogan-container h3{
+  font-style: italic;
+  font-weight: 200;
+  text-align: right;
+  font-size: 20px;
+}
+#slogan-container h1{
+  font-style: normal;
+  font-weight: 200;
+  font-size: 40px;
+}
+#btninquiry{
+  background-color: #013cb2;
+  opacity: 0.5;
+  padding: 10px 0;
+}
+#btninquiry:hover{
+  background-color: #08A5BF;
+  opacity: 1;
+}
+#inquerieslbl{
+  color: white;
+  padding: 10px 15px;
+}
+#inquerieslbl:hover{
+  text-shadow: 0 0 .65px #08A5BF, 0 0 .65px #000;
+  color: #fff;
+}
+#excellent{
+  margin: auto;
+}
+#segecofooterlogo{
+  width:129px;
+  height:25px;
+}
+footer{
+  max-width: 1200px;
+  background-color: #08A5BF;
+  margin: auto;
+  color: #013cb2;
+  font-size: 12px;
+}
+#copyright-wrapper{
+  background-color:#0799b3 ;
+}
+.jumbotron{
+  background-color: #b8b8b8;
+  margin-top: 30px;
+  height: 371px;
+}
+#social-icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#social-icons a{
+  font-size: 40px;
+  color: #013cb2;
+  padding: 0 5px;
+}
+#social-icons a:hover{
+  color: #08A5BF;
+}
+hr.ctm {
+  border: 3px solid #013cb2;
+  border-radius: 1.5px;
+  margin: auto;
+  width: 100%;
+  max-width: 1194px;
+  box-sizing: content-box;
+}
+.list-group .list-group-item{
+  background-color: transparent;
+  padding: 5px 0 0 0;
+  border: none;
+}
+/*############################ Products ###########################################################*/
+.welcome{
+  color: #fff;
+}
+.innerContent-wrapper{
+  margin: auto;
+  max-width: 920px;
+}
+#btnSearch{
+  background-color: #08A5BF;
+  border-color:#08A5BF;
+  opacity: .8;
+  padding: 0;
+  width: 70px;
+}
+#btnSearch:hover{
+  text-shadow: 0 0 .65px #08A5BF, 0 0 .65px #000;
+  background-color: #ffffff;
+  opacity: 1;
+}
+#searchImg{
+  padding: 5px 20px;
+}
+#searchImg:hover{
+  -webkit-filter: drop-shadow(5px 5px 5px #222 );
+  filter: drop-shadow(5px 5px 5px #222);
+}
+.imgWithDesc-wrapper{
+  margin-top: 3px;
+  height:229px;
+  overflow-y: scroll;
+}
+.cytank-hide{
+  display: none;
+}
+.cytank-show{
+  display: block;
+}
+#paginav-wrapper{
+  margin: 3px auto;
+}
+#paginav-wrapper .active a{
+  background-color:#08A5BF;
+  text-shadow: -2px 2px 1px #000, 0 0 10px #000, 0 0 10px #000;
+}
+#prev{
+  pointer-events: none;
+}
+#prodFilter{
+  background-image: url('../icons/searchIcon.png');
+  background-repeat: no-repeat;
+  background-position: 0px 6px;
+}
+#prodList-wrapper{
+  width: 20%;
+  min-width: 178px;
+  margin-bottom: 3px;
+}
+#prodList-wrapper select{
+  background-image: url('../icons/searchIcon.png');
+  background-repeat: no-repeat;
+  background-position: 0px 6px;
+  padding: 0px 0px 0px 25px;
+}
+/*############################ END Products ###########################################################*/
+
+/*############################ Services ###########################################################*/
+#services-container{
+  width: 50%;
+  border: 1px solid red;
+}
+#services-container .imgWithDesc-wrapper{
+	height: 300px;
+	width: 50%;
+}
+/*############################ END Services ###########################################################*/
+
+/*############################ Contact us ###########################################################*/
+#contactus-wrapper{
+	width: 75%;
+	height: 100%;
+	margin: auto;
+}
+#contactus-wrapper .jumbotron{
+	width: 50%;
+	height: auto;
+}
+#map-wrapper{
+	height: 403px;
+}
+#map-wrapper img{
+	height: 100%;
+}
+#leftJumb{
+	color: #013cb2;
+	background-color: white;
+}
+#rightJumb{
+	background-color: #b2c4e8;
+}
+#mapJumb{
+	background-image: url('../images/sugecoMap.png');
+	margin-top: -30px;
+	background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*############################ END Contact us #######################################################*/
+
+@media (max-width: 576px) {
+.container {
+  max-width: 540px;
+  }
+#slogan-container h3{
+  font-style: italic;
+  font-weight: 200;
+  text-align: center;
+  font-size: 20px;
+}
+#branches-wrapper{
+  line-height: 10px;		
+}
+#contactus-wrapper{
+	width: 100%;
+	height: 100%;
+	margin: auto;
+}
+}
+@media (max-width: 768px) {
+#slogan-container h3{
+  font-style: italic;
+  font-weight: 200;
+  text-align: center;
+  font-size: 20px;
+}
+#contactus-wrapper{
+	width: 100%;
+	height: 100%;
+	margin: auto;
+}
+}
+
+@media (max-width: 992px) {
+.container {
+  max-width: 960px;
+  }
+
+}
+@media (max-width: 1045px) {
+.jumbotron{
+  min-width: 227px;
+  }
+}
+
+@media (max-width: 1200px) {
+.container {
+  max-width: 1140px;
+  }
+}
