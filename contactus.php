@@ -79,7 +79,7 @@
           <h5>Send us a message</h5>
           <small class='text-danger'>*Required</small>
 <!--- contact us FORM -->
-         <form method="post" action="conusreg_process.php">
+         <form method="post" id='conusForm_reg' action="conusreg_process.php">
           <div class="form-group">
             <label for="conusreg_fname">First Name<span class='reqFieldSign text-danger'> *</span></label>
             <input type="text" class="form-control" id="conusreg_fname" name="conusreg_fname" placeholder="First Name..." required>
@@ -102,8 +102,8 @@
             <label for="conusreg_message">Your Message<span class='reqFieldSign text-danger'> *</span></label>
             <textarea class="form-control" id="conusreg_message" name='conusreg_message' rows="3" placeholder="Your message..." required></textarea>
           </div>
-          <div id='recaptcha' class="g-recaptcha" data-sitekey="6Lf6yJcUAAAAANWl9mk8zhkf80WrcI_pG6NpOFKH" data-callback="verifyRecaptchaCallback" data-expired-callback="expiredRecaptchaCallback"></div>
-          
+          <div class="g-recaptcha" data-sitekey="6Lf6yJcUAAAAANWl9mk8zhkf80WrcI_pG6NpOFKH" data-callback="recaptchaCallback" data-callback="verifyRecaptchaCallback" data-expired-callback="expiredRecaptchaCallback" required></div>
+
           <button type="submit" id='conusreg_submit' name='conusreg_submit' class="btn btn-primary">Submit</button>
         </form>
 <!--- END contact us FORM -->

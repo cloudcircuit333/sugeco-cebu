@@ -31,10 +31,12 @@ if (isset($_POST['conusreg_submit'])){
 	$contConMess=$_SESSION['message'];
 	$contMessage=true;
 	$_SESSION['msg_type'] = "Success";
+
 	header ("location: contactus.php");
 }
         }else{
             echo 'SPam';
+            //header ("location: contactus.php");
         }
         
     }

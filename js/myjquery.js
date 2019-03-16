@@ -1,4 +1,5 @@
 $(document).ready(() => {
+
 	var menubtn = 0;
 	$('#burgerbtn').on('click',() => {
 		if(menubtn==0){
@@ -505,8 +506,23 @@ $('#underconsBtn').on('click',() =>{
 
 //################################# END Contact Us #########################################//
 
-
-
-
+$('#conusreg_submit').on('click',() =>{
+if(grecaptcha && grecaptcha.getResponse().length > 0)
+{
+     //the recaptcha is checked
+     // Do what you want here
+      function recaptchaCallback() { 
+    $('#recaptcha_check_empty').val(1);
+}
+else
+{
+    //The recaptcha is not cheched
+    //You can display an error message here
+    $('#recaptcha').text('please check reCaptcha').addClass('text-danger');
+     
+}
+    alert('Oops, you have to check the recaptcha !');
+}
+})
 
 });
